@@ -14,6 +14,16 @@
 		F0AD6E2125CA445E00CAD381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AD6E1F25CA445E00CAD381 /* LaunchScreen.storyboard */; };
 		F0AD6E2C25CA445F00CAD381 /* CMoneyAssignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E2B25CA445F00CAD381 /* CMoneyAssignment2Tests.swift */; };
 		F0AD6E3725CA445F00CAD381 /* CMoneyAssignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E3625CA445F00CAD381 /* CMoneyAssignment2UITests.swift */; };
+		F0AD6E4B25CA52FC00CAD381 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E4A25CA52FC00CAD381 /* UIImageView+Download.swift */; };
+		F0AD6E5325CA88F500CAD381 /* EntryPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E5225CA88F500CAD381 /* EntryPageViewModel.swift */; };
+		F0AD6E5F25CA89AB00CAD381 /* EntryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E5D25CA89AB00CAD381 /* EntryPageViewController.swift */; };
+		F0AD6E6025CA89AB00CAD381 /* EntryPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AD6E5E25CA89AB00CAD381 /* EntryPageViewController.xib */; };
+		F0AD6E6525CA8EBB00CAD381 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E6425CA8EBB00CAD381 /* ViewModelType.swift */; };
+		F0AD6E7325CBC3ED00CAD381 /* AstronomyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E7225CBC3ED00CAD381 /* AstronomyListViewController.swift */; };
+		F0AD6E7B25CBCD7700CAD381 /* AstronomyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E7A25CBCD7700CAD381 /* AstronomyListViewModel.swift */; };
+		F0AD6E8425CBD43800CAD381 /* AstronomyImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E8325CBD43800CAD381 /* AstronomyImageCollectionViewCell.swift */; };
+		F0AD6E8925CBD64400CAD381 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E8825CBD64400CAD381 /* UICollectionView+Register.swift */; };
+		F0AD6E9225CBD68300CAD381 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD6E9125CBD68300CAD381 /* NSObject+ClassName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		F0AD6E3225CA445F00CAD381 /* CMoneyAssignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMoneyAssignment2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AD6E3625CA445F00CAD381 /* CMoneyAssignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMoneyAssignment2UITests.swift; sourceTree = "<group>"; };
 		F0AD6E3825CA445F00CAD381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AD6E4A25CA52FC00CAD381 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		F0AD6E5225CA88F500CAD381 /* EntryPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPageViewModel.swift; sourceTree = "<group>"; };
+		F0AD6E5D25CA89AB00CAD381 /* EntryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPageViewController.swift; sourceTree = "<group>"; };
+		F0AD6E5E25CA89AB00CAD381 /* EntryPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryPageViewController.xib; sourceTree = "<group>"; };
+		F0AD6E6425CA8EBB00CAD381 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		F0AD6E7225CBC3ED00CAD381 /* AstronomyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyListViewController.swift; sourceTree = "<group>"; };
+		F0AD6E7A25CBCD7700CAD381 /* AstronomyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyListViewModel.swift; sourceTree = "<group>"; };
+		F0AD6E8325CBD43800CAD381 /* AstronomyImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0AD6E8825CBD64400CAD381 /* UICollectionView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
+		F0AD6E9125CBD68300CAD381 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,10 @@
 				F0AD6E1D25CA445E00CAD381 /* Assets.xcassets */,
 				F0AD6E1F25CA445E00CAD381 /* LaunchScreen.storyboard */,
 				F0AD6E2225CA445E00CAD381 /* Info.plist */,
+				F0AD6E8D25CBD65300CAD381 /* Utils */,
+				F0AD6E6E25CBC39300CAD381 /* Entry */,
+				F0AD6E7F25CBD40700CAD381 /* AstronomyList */,
+				F0AD6E6925CA8EC500CAD381 /* Protocol */,
 			);
 			path = CMoneyAssignment2;
 			sourceTree = "<group>";
@@ -123,6 +147,44 @@
 				F0AD6E3825CA445F00CAD381 /* Info.plist */,
 			);
 			path = CMoneyAssignment2UITests;
+			sourceTree = "<group>";
+		};
+		F0AD6E6925CA8EC500CAD381 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6E6425CA8EBB00CAD381 /* ViewModelType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F0AD6E6E25CBC39300CAD381 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6E5225CA88F500CAD381 /* EntryPageViewModel.swift */,
+				F0AD6E5D25CA89AB00CAD381 /* EntryPageViewController.swift */,
+				F0AD6E5E25CA89AB00CAD381 /* EntryPageViewController.xib */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		F0AD6E7F25CBD40700CAD381 /* AstronomyList */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6E7225CBC3ED00CAD381 /* AstronomyListViewController.swift */,
+				F0AD6E7A25CBCD7700CAD381 /* AstronomyListViewModel.swift */,
+				F0AD6E8325CBD43800CAD381 /* AstronomyImageCollectionViewCell.swift */,
+			);
+			path = AstronomyList;
+			sourceTree = "<group>";
+		};
+		F0AD6E8D25CBD65300CAD381 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6E4A25CA52FC00CAD381 /* UIImageView+Download.swift */,
+				F0AD6E8825CBD64400CAD381 /* UICollectionView+Register.swift */,
+				F0AD6E9125CBD68300CAD381 /* NSObject+ClassName.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +292,7 @@
 			files = (
 				F0AD6E2125CA445E00CAD381 /* LaunchScreen.storyboard in Resources */,
 				F0AD6E1E25CA445E00CAD381 /* Assets.xcassets in Resources */,
+				F0AD6E6025CA89AB00CAD381 /* EntryPageViewController.xib in Resources */,
 				F0AD6E1C25CA445C00CAD381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AD6E5F25CA89AB00CAD381 /* EntryPageViewController.swift in Sources */,
+				F0AD6E5325CA88F500CAD381 /* EntryPageViewModel.swift in Sources */,
+				F0AD6E6525CA8EBB00CAD381 /* ViewModelType.swift in Sources */,
+				F0AD6E7B25CBCD7700CAD381 /* AstronomyListViewModel.swift in Sources */,
 				F0AD6E1925CA445C00CAD381 /* ViewController.swift in Sources */,
+				F0AD6E7325CBC3ED00CAD381 /* AstronomyListViewController.swift in Sources */,
+				F0AD6E9225CBD68300CAD381 /* NSObject+ClassName.swift in Sources */,
 				F0AD6E1525CA445C00CAD381 /* AppDelegate.swift in Sources */,
+				F0AD6E8925CBD64400CAD381 /* UICollectionView+Register.swift in Sources */,
+				F0AD6E4B25CA52FC00CAD381 /* UIImageView+Download.swift in Sources */,
+				F0AD6E8425CBD43800CAD381 /* AstronomyImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
